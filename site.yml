@@ -1,3 +1,2 @@
-#- import_playbook: all.yml
-- import_playbook: all-second-form.yml
+- import_playbook: all.yml
 - import_playbook: frontend.yml
