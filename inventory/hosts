@@ -1,2 +1,2 @@
 [ui]
-localhost        ansible_connection=local
+Frontend        ansible_connection=local
