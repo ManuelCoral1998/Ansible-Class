@@ -1,4 +1,4 @@
-- hosts: ui
+- hosts: tag_Name_tf_instance_front_icesi_health
   become: yes
   become_user: root
   become_method: sudo
@@ -32,7 +32,7 @@
     - name: Execute docker container
       docker_container:
         name: appFront
-        image: manuel11coral23/frontend
+        image: manuel11coral23/frontend:{{ tag }}
         state: started
         pull: true
         published_ports:
